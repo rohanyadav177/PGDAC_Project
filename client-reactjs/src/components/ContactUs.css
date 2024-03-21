@@ -1,0 +1,18 @@
+.contact-container {
+    min-width: 100px; /* Set the maximum width of the container */
+    margin: 30px auto; /* Center the container horizontally with a top margin */
+    padding: 20px; /* Add some padding to the container */
+    border: 1px solid #ccc; /* Add a border around the container */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    height: auto; /* Set the height to auto to adjust based on content */
+  }
+  
+  
+  .input-container {
+    margin-bottom: 15px; /* Add some bottom margin to the input fields */
+    /* width: 300px; */
+  }
+  
+  .smaller-input {
+    width: 200px /* Make the input fields slightly smaller than the container width */
+  }

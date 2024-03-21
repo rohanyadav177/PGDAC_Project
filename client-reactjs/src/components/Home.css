@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #12ac8e;
+  --primary-color-dark: #0d846c;
+  --primary-color-light: #e9f7f7;
+  --secondary-color: #fb923c;
+  --text-dark: #333333;
+  --text-light: #767268;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Container */
+header {
+  background-image: linear-gradient(
+      to right,
+      rgba(18, 172, 142, 0.9),
+      rgba(18, 172, 142, 0.7)
+    ),
+    url("./assets/health-homepage.jpg");
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 64px 16px; /* converted from 4rem 1rem */
+ background-position:lower ;
+}
+
+.header__container
+{
+  height: 300px;
+}
+
+.header__container h1 {
+  font-size: 40px; /* converted from 2.5rem */
+  line-height: 64px; /* converted from 4rem */
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 16px; /* converted from 1rem */
+}
+
+.header__container p {
+  max-width: 600px;
+  color: var(--primary-color-light);
+  text-align: justify;
+  margin: 0 auto;
+}
+
+/* Service Section */
+.section__container_2 {
+  padding: 32px 16px; /* converted from 2rem 1rem */
+}
+
+.service_plan h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.service__grid {
+  margin-top: 64px; /* converted from 4rem */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px; /* converted from 2.5rem */
+}
+
+.service__card {
+  padding: 32px; /* converted from 2rem */
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.service__card:hover {
+  transform: translateY(-5px);
+}
+
+.service__card span {
+  display: inline-block;
+  margin-bottom: 16px; /* converted from 1rem */
+  padding: 16px; /* converted from 1rem */
+  font-size: 32px; /* converted from 2rem */
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 50%;
+}
+
+.service__card p {
+  margin-bottom: 16px; /* converted from 1rem */
+  color: #555;
+}
+
+.service__card p:first-of-type {
+  margin-top: 0;
+}
+
+.service__card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.service__card a:hover {
+  color: #0056b3;
+}
+
+.service__card:hover span {
+  background-color: #0056b3;
+}
+
+/* Flip Cards Section */
+.section__container_3 {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 20px 10px;
+  background-color: #f4f5f7;
+  margin-top: 30px;
+}
+
+.eligiblity_coverage h1 {
+  font-size: 40px;
+  margin-top: 20px;
+  padding-left: 70px;
+}
+
+.eligiblity_coverage p {
+  font-size: 20px;
+  padding-left: 100px;
+}
+
+.columnwise {
+  width: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.columnwise img {
+  display: block;
+  width: 100%;
+  border-radius: 3%;
+}
+
+.columnwise h3 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.columnwise p {
+  margin-top: 10px;
+  text-align: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .section__container_3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .columnwise {
+    width: calc(33.33% - 20px);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .columnwise {
+    margin-bottom: 20px;
+  }
+}
+
+/* Table Section */
+.eligibility-section {
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+.eligibility-section-heading {
+  font-size: 40px;
+  text-shadow: #fb923c;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.key-features-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #000;
+}
+
+.key-features-table th,
+.key-features-table td {
+  padding: 8px;
+  border: 1px solid #000;
+}
+
+.detail-header,
+.criteria-header {
+  background-color: #959799;
+  font-size: 25px;
+}
+
+.detail {
+  font-weight: bold;
+}
+
+.criteria {
+  font-weight: normal;
+}
+
+.key-features-table .detail {
+  min-width: 200px;
+}
+
+.key-features-table .criteria {
+  text-align: left;
+}
+
+/* Demo Policies Section */
+.section__container_4 {
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.demo-policy h4 {
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.flipcard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flipcard {
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin: 20px;
+}
+
+.flipcard__side {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  transition: transform 0.5s ease;
+}
+
+.flipcard__front {
+  background-color: #fff;
+}
+
+.flipcard__back {
+  background-color: #f0f0f0;
+  transform: rotateY(180deg);
+}
+
+.flipcard:hover .flipcard__front {
+  transform: rotateY(-180deg);
+}
+
+.flipcard:hover .flipcard__back {
+  transform: rotateY(0deg);
+}
+
+.flipcard__text {
+  text-align: left;
+}
+
+.flipcard__text li {
+  list-style-type: circle;
+}
+
+.discount {
+  background-color: skyblue;
+}
+
+.view-more {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.view-more__btn {
+  padding: 10px 20px;
+  background-color: #b1cff0;
+  color: #232222;
+  text-decoration: none;
+  outline: rgb(154, 151, 151) solid;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.view-more__btn:hover {
+  background-color: #f36868;
+}
+
+/* Steps Section */
+.steps-container {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.main-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.steps-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.step {
+  text-align: center;
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.step-text {
+  margin-bottom: 10px;
+}
+
+.line {
+  flex: 1;
+  height: 2px;
+  background-color: #ccc;
+}
+
+.policy-issued {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.issued-text {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .section__container_3 {
+    padding: 20px;
+  }
+
+  .eligiblity_coverage h1 {
+    padding-left: 20px;
+  }
+
+  .eligiblity_coverage p {
+    padding-left: 20px;
+  }
+}

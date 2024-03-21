@@ -1,0 +1,67 @@
+.lander-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lander-dropdowns-container {
+    display: flex;
+    justify-content: flex-end; /* Align dropdowns to the right side */
+    gap: 20px; /* Add gap between dropdowns */
+    margin-bottom: 20px; /* Add margin-bottom to create space between dropdowns and policies */
+    width: calc(100% - 40px); /* Take up remaining space */
+    margin-top: 30px; /* Add margin-top to create space between dropdowns and policies */
+}
+
+.lander-dropdowns-container select {
+    font-size: 16px; /* Adjust the font size as needed */
+    padding: 10px; /* Adjust the padding as needed */
+    width: 220px; /* Increase the width of the dropdown */
+    
+}
+
+.lander-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px; /* Add margin-top to create space between dropdowns and policies */
+    
+}
+
+.lander-card {
+    min-width: 20rem;
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    padding: 4rem;
+    background-color: #cbecf0;
+    border-radius: 0.5rem;
+    color: #15133c;
+    display: flex;
+    border-radius: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); Add shadow effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+    /* /#d1e6e3/ */
+  }
+  
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px; /* Add padding to the left and right sides */
+    
+}
+.lander-buy-button {
+    background-color: #0d846c; /* Dark green button color */
+    color: white; /* Text color */
+    padding: 0.8rem 2.2rem; /* Adjust padding as needed */
+    border: none; /* Remove border */
+    cursor: pointer; /* Add pointer cursor on hover */
+  }
+  
+  .lander-buy-button:hover {
+    background-color: #0b6c52; /* Darken button color on hover */
+  }

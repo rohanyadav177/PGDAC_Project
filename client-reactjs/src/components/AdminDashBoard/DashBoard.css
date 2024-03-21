@@ -1,0 +1,53 @@
+.parent{
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 300px;
+    height: auto;
+    }
+    
+    .parent .box-info{
+    
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        grid-gap: 24px;
+        margin-top: 36px;
+       
+    
+    }
+    
+    .parent .box-info li{
+        padding: 24px;
+        background-color: rgb(107, 247, 118);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        grid-gap: 24px;
+        
+    }
+    
+    .parent .box-info li .bx{
+    
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .parent .box-info li .text h3{
+    
+         color: white;
+    
+    }
+    
+    .parent .box-info li .text p{
+    
+        color: rgb(0, 0, 0);
+        font-weight: 400;
+        font-size: 20px;
+    
+    }

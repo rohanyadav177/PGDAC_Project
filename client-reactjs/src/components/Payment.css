@@ -1,0 +1,79 @@
+.payment-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .individual-details,
+  .policy-details {
+    margin-bottom: 20px;
+  }
+  
+  .details-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .details-table td {
+    border: 1px solid #000;
+    padding: 8px;
+  }
+  .policy-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .policy-table td {
+    border: 1px solid #000;
+    padding: 8px;
+  }
+
+  /* Payment.css */
+
+.buttons-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.payment-button,
+.invoice-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.invoice-button {
+  background-color: #008CBA; /* Blue */
+  color: white;
+}
+
+.payment-button:hover,
+.invoice-button:hover {
+  opacity: 0.8;
+}
+
+/* Payment.css */
+
+.logout-button {
+  background-color: #f44336; /* Red */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  opacity: 0.8;
+}
+
+
+    

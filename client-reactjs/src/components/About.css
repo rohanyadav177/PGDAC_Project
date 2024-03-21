@@ -1,0 +1,68 @@
+
+.about-us-container {
+    width: 100%;
+    max-width: 1000px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image:url("./assets/about.jpg");
+    background-position: center;
+    background-size: flex;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+  
+  }
+
+  .about-us-container h1
+  {
+    color: blue;
+    text-shadow: #e84040;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    
+  }
+  
+  .section-content {
+    font-size: 16px;
+    color: #555;
+    text-align: left;
+  }
+ 
+  
+  .team-member {
+    margin-bottom: 20px;
+  }
+  
+  .team-member h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .team-member p {
+    font-size: 26px;
+    color: #555;
+    
+  }
+  
+  .tech-stack-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .tech-stack-list li {
+    font-size: 16px;
+    color: #0e0a0a;
+    margin-bottom: 10px;
+    list-style-type: circle;
+    text-align: left;
+  }

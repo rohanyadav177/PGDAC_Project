@@ -1,0 +1,66 @@
+.admin-policy-div { /* Updated classname */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.admin-policy-card-container { /* Updated classname */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+   
+}
+
+.admin-policy-card { /* Updated classname */
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fafafa;
+}
+
+.admin-policy-card-info { /* Updated classname */
+    margin-bottom: 10px;
+}
+
+.admin-policy-info { /* Updated classname */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.admin-policy-details { /* Updated classname */
+    flex-basis: 100%;
+}
+
+.admin-policy-details p {
+    margin: 5px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.admin-button-container { /* Updated classname */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.admin-delete-button { /* Updated classname */
+    background-color: red;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.admin-update-button { /* Updated classname */
+    background-color: blue;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
